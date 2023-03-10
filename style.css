@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto';
+}
+.textArea{
+
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+    padding-top: 10%;
+    justify-content: center;
+    gap: 30px;
+    width: 100vw;
+    height: 100vh; 
+}
+.units{
+    text-decoration: underline;
+    display: inherit;
+    justify-content: center;
+    
+}
+.dropdown{
+    padding-top: 60px;
+}
+h2{
+    
+    margin: 0px 15vw 0px;
+}
+.inputs{
+    display: inherit;
+    /* flex-direction: row; */
+    justify-content: center;
+    gap: 30px;
+    width: 100vw;
+    height: 100vh; 
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 30vw;
+    height: 20vh;
+    font-size: 40px;
+}
+.dropdown{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+select, button{
+    font-size: 16px;
+    border-radius: 10px;
+}
+ button{
+    margin: 0px 5px 0px;
+    width: 4rem;
+} 
+button:hover{
+    cursor: pointer;
+}
+/* @media (max-width: 1110px) {
+    button{
+        font-size: 14px;
+    }
+} */
