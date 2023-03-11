@@ -3,7 +3,7 @@
 ## Introduction
 This project is a Unit Converter Made Using HTML, CSS, and JavaScript
 
-## This project is still not completed, work still in progress.
+## This project is still not completed, work is in progress.
 
 ## Tasks Left:
 - Make the page responsive
