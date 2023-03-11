@@ -10,39 +10,42 @@
 </head>
 <body>
     <h1>Unit Converter</h1>
-    <div class="dropdown">
-        <select name="dropdown" id="dropdown" onclick="displayUnit()">
-            <option value="0">SELECT CONVERSION:</option>
-            <option value="8">meter to kilometer</option>
-            <option value="7">kilometer to meter</option>
-            <option value="1" >meter to centimeter</option>
-            <option value="2">centimeter to meter</option>
-            <option value="9">meter to millimeter</option>
-            <option value="10">millimeter to meter</option>
-            <option value="3">centimeter to foot</option>
-            <option value="4">foot to centimeter</option>
-            <option value="5">foot to inch</option>
-            <option value="6">inch to foot</option>
-            <option value="11">kilometer to mile</option>
-            <option value="12">mile to kilometer</option>
-            <option value="13">kilometer per hour to meter per second</option>
-            <option value="14">meter per second to kilometer per hour</option>
-            <option value="15">square meter to acre</option>
-            <option value="16">acre to square meter</option>
-            <option value="17">cubic meter to litres</option>
-            <option value="18">litres to cubic meter</option>
-        </select>
-        <button onclick="clearFields()">Clear</button>
-    </div>
-    <div class="textArea">
-        <div class="units">
-            <h2 id = "1"></h2>
-            <h2 id = "2"></h2>
+    <main>
+        <div class="dropdown">
+            <select name="dropdown" id="dropdown" onclick="displayUnit()">
+                <option value="0">SELECT CONVERSION:</option>
+                <option value="8">meter to kilometer</option>
+                <option value="7">kilometer to meter</option>
+                <option value="1" >meter to centimeter</option>
+                <option value="2">centimeter to meter</option>
+                <option value="9">meter to millimeter</option>
+                <option value="10">millimeter to meter</option>
+                <option value="3">centimeter to foot</option>
+                <option value="4">foot to centimeter</option>
+                <option value="5">foot to inch</option>
+                <option value="6">inch to foot</option>
+                <option value="11">kilometer to mile</option>
+                <option value="12">mile to kilometer</option>
+                <option value="13">kilometer per hour to meter per second</option>
+                <option value="14">meter per second to kilometer per hour</option>
+                <option value="15">square meter to acre</option>
+                <option value="16">acre to square meter</option>
+                <option value="17">cubic meter to litres</option>
+                <option value="18">litres to cubic meter</option>
+            </select>
+            <button onclick="clearFields()">Clear</button>
         </div>
-        <div class="inputs">
-            <input type="number" id = "userNum" oninput="func()">
-            <input type="text" id= "convertedNum">
+        <div class="textArea">
+            <div class="units">
+                <h2 id = "1"></h2>
+                <h2 id = "2"></h2>
+            </div>
+            <div class="inputs">
+                <input type="number" id = "userNum" oninput="func()">
+                <input type="text" id= "convertedNum">
+            </div>
+            
         </div>
-        
-    </div>
+    </main>
+    
 </html>
